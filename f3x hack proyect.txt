@@ -1,0 +1,1263 @@
+local gui = Instance.new("ScreenGui")
+gui.Name = "patrickGui"
+gui.Parent = game.CoreGui
+
+--screengui = gui
+
+
+-- Si no quieres mas textos puedes dejarlo en blanco ejmplo " "
+
+--CRACKEADO POR G00GLEKIDD
+
+
+local fr = Instance.new("Frame")
+fr.Size = UDim2.new(0, 283, 0, 100)
+fr.Position = UDim2.new(0.1, 0, 0.75, 0)
+fr.BackgroundColor3 = Color3.new(1, 1, 1)
+fr.BorderColor3 = Color3.new(0, 0, 0)
+fr.BorderSizePixel = 1
+fr.Active = true
+fr.Draggable = no
+fr.Parent = gui
+
+
+   setclipboard("f3x gui messsge : This gui was maked by teamperu and g00glekidd")
+
+	local ImageLabel = Instance.new("ImageLabel")
+	ImageLabel.Parent = gui
+	ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	ImageLabel.BackgroundTransparency = 1 --  si quieres que tu decal tenga fondo pon el "1" en "0"
+	ImageLabel.BorderColor3 = Color3.fromRGB(27, 27, 27)
+	ImageLabel.BorderSizePixel = 2
+	ImageLabel.Position = UDim2.new(0.004,  0, 0.75, 0)
+	ImageLabel.Size = UDim2.new(0, 99, 0, 99.9)
+	ImageLabel.Image = "rbxassetid://15928893796"
+
+
+local txt = Instance.new("TextLabel")
+txt.Size = UDim2.new(0.3, 0, 0.2, 0)
+txt.Position = UDim2.new(0.35, 0, 0.07, 0)
+txt.BackgroundColor3 = Color3.new(0, 0, 0)
+txt.BackgroundTransparency = 1
+txt.BorderColor3 = Color3.new(0, 0, 0)
+txt.BorderSizePixel = 1
+txt.Text = "We have replicated ur client to server"
+txt.TextSize = 15
+txt.TextColor3 = Color3.new(0, 0, 0)
+txt.Font = Enum.Font.Code
+txt.Parent = fr
+
+
+local txt2 = Instance.new("TextLabel")
+txt2.Size = UDim2.new(0.3, 0, 0.2, 0)
+txt2.Position = UDim2.new(0.23, 0, 0.25, 0)
+txt2.BackgroundColor3 = Color3.new(0, 0, 0)
+txt2.BackgroundTransparency = 1
+txt2.BorderColor3 = Color3.new(0, 0, 0)
+txt2.BorderSizePixel = 1
+txt2.Text = "force fe bypass on f3x games"
+txt2.TextSize = 15
+txt2.TextColor3 = Color3.new(0,0,0)
+txt2.Font = Enum.Font.Code
+txt2.Parent = fr
+
+
+
+local txt3 = Instance.new("TextLabel")
+txt3.Size = UDim2.new(0.3, 0, 0.2, 0)
+txt3.Position = UDim2.new(0.09, 0, 0.41,0)
+txt3.BackgroundColor3 = Color3.new(0, 0, 0)
+txt3.BackgroundTransparency = 1
+txt3.BorderColor3 = Color3.new(0, 0, 0)
+txt3.BorderSizePixel = 1
+txt3.Text = "Made by g00glekidd"
+txt3.TextSize = 15
+txt3.TextColor3 = Color3.new(0,0,0)
+txt3.Font = Enum.Font.Code
+txt3.Parent = fr
+
+
+
+local txt4 = Instance.new("TextLabel")
+txt4.Size = UDim2.new(0.3, 0, 0.2, 0)
+txt4.Position = UDim2.new(0.2,  0, 0.6, 0)
+txt4.BackgroundColor3 = Color3.new(0, 0, 0)
+txt4.BackgroundTransparency = 20
+txt4.BorderColor3 = Color3.new(0, 0, 0)
+txt4.BorderSizePixel = 1
+txt4.Text = "[discord : yir2007.com"
+txt4.TextSize = 15
+txt4.TextColor3 = Color3.new(0, 0, 0)
+txt4.Font = Enum.Font.Code
+txt4.Parent = fr
+
+
+local hide = Instance.new("TextButton")
+hide.Size = UDim2.new(0.1, 0, 0.2, 0)
+hide.Position = UDim2.new(0.99999, 0, 0.0, 0)
+hide.BackgroundColor3 = Color3.new(0, 0, 0)
+hide.BackgroundTransparency = 0.7
+hide.BorderColor3 = Color3.new(0, 0, 0)
+hide.BorderSizePixel = 1
+hide.Text = "X"
+hide.TextSize = 15
+hide.TextColor3 = Color3.new(255, 255, 255)
+hide.Font = Enum.Font.Code
+hide.Parent = fr
+hide.MouseButton1Click:Connect(function()
+
+   fr.Visible = false
+   ImageLabel.Visible = false
+end)
+
+
+
+
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local colors = {
+    SchemeColor = Color3.fromRGB(9, 68, 97),
+    Background = Color3.fromRGB(156, 156, 156),
+    Header = Color3.fromRGB(140, 140, 140),
+    TextColor = Color3.fromRGB(255,255,255),
+    ElementColor = Color3.fromRGB(43, 43, 43)
+}
+local Window = Library.CreateLib("️                                            F3x </>  GGK UI",colors) 
+local themes = {
+    "SchemeColor",
+    "Background",
+    "Header",
+    "TextColor",
+    "ElementColor"
+}
+
+
+-- Tabs
+local Tab1 = Window:NewTab("•Home")
+local Tab2 = Window:NewTab("•Server scripts")
+local Tab3 = Window:NewTab("•guis")
+local Tab4 = Window:NewTab("•tools")
+local Tab5 = Window:NewTab("•credits")
+
+
+-- Sections inside tabs
+local Tab1Section = Tab1:NewSection("[https://discord.com/invite/HEnqDG4aYw]")
+local Tab1Section = Tab1:NewSection("- f3x bypass ui")
+local Tab1Section = Tab1:NewSection("- this gui made by googleinian")
+local Tab1Section = Tab1:NewSection("- Fixed errors")
+local Tab1Section = Tab1:NewSection("-inspired on vector13")
+local Tab1Section = Tab1:NewSection("-Force f3x ss ")
+local Tab2Section = Tab2:NewSection("Server scripts")
+local Tab3Section = Tab3:NewSection("Guis for f3x")
+local Tab4Section = Tab4:NewSection("Tools")
+local Tab6Section = Tab5:NewSection("g00glekidd developed this script")
+
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "ScreenGui"
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+ 
+local Toggle = Instance.new("TextButton")
+Toggle.Name = "Toggle"
+Toggle.Parent = ScreenGui
+Toggle.BackgroundColor3 = Color3.fromRGB(36, 36 ,36)
+Toggle.BackgroundTransparency = 0.5
+Toggle.Position = UDim2.new(0, 0, 0.454706937, 0)
+Toggle.Size = UDim2.new(0, 90, 0, 38)
+Toggle.Font = Enum.Font.SourceSans
+Toggle.Text = "</>"
+Toggle.TextColor3 = Color3.fromRGB(248, 248, 248)
+Toggle.TextSize = 28.000
+Toggle.Draggable = true
+Toggle.MouseButton1Click:connect(function()
+    Library:ToggleUI()
+end)
+ 
+local Corner = Instance.new("UICorner")
+Corner.Name = "Corner"
+Corner.Parent = Toggle
+
+
+
+--Buttons
+local Tab2Section = Tab2:NewSection("Replication Ui")
+Tab2Section:NewButton("Load menu of ss", "ok?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Catserverrr/SecretF3xPanel/main/SecretF3xPanel.txt"))()
+end)
+
+local Tab2Section = Tab2:NewSection("Server players [all] ")
+
+Tab2Section:NewButton("penis all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+					local part = F3X.new("Part", workspace)
+					part.CanCollide = false
+					part.BrickColor = BrickColor.new(3)
+					part.Material = ("Smooth Plastic")
+					part.Size = Vector3.new(0.8, 0.8, 3)
+					part.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0, -0.5, -2)
+					wait()
+					part:WeldTo(player.Character.HumanoidRootPart)
+	
+					local part2 = F3X.new("Ball", workspace)
+					part2.CanCollide = false
+					part2.BrickColor = BrickColor.new(3)
+					part2.Material = ("Smooth Plastic")
+					part2.Size = Vector3.new(1, 1, 4)
+					part2.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0.8, -0.5, -1)
+					wait()
+					part2:WeldTo(player.Character.HumanoidRootPart)
+	
+					local part3 = F3X.new("Ball", workspace)
+					part3.CanCollide = false
+					part3.Material = ("Smooth Plastic")
+					part3.BrickColor = BrickColor.new(22)
+					part3.Size = Vector3.new(1, 1, 3)
+					part3.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0, -0.5, -3.5)
+					wait()
+					part3:WeldTo(player.Character.HumanoidRootPart)
+					local part1 = F3X.new("Ball", workspace)
+					part1.CanCollide = false
+					part1.BrickColor = BrickColor.new(3)
+					part1.Material = ("Smooth Plastic")
+					part1.Size = Vector3.new(1, 1, 4)
+					part1.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(-0.8, -0.5, -1)
+					wait()
+	
+					part1:WeldTo(player.Character.HumanoidRootPart)
+	
+				end)
+	
+			end
+	
+	
+		end)
+
+Tab2Section:NewButton("block penis all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+					local part = F3X.new("Part", workspace)
+					part.CanCollide = false
+					part.BrickColor = BrickColor.new(3)
+					part.Material = ("Smooth Plastic")
+					part.Size = Vector3.new(0.8, 0.8, 3)
+					part.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0, -0.5, -2)
+					wait()
+					part:WeldTo(player.Character.HumanoidRootPart)
+	
+					local part2 = F3X.new("Part", workspace)
+					part2.CanCollide = false
+					part2.BrickColor = BrickColor.new(3)
+					part2.Material = ("Smooth Plastic")
+					part2.Size = Vector3.new(1, 1, 4)
+					part2.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0.8, -0.5, -1)
+					wait()
+					part2:WeldTo(player.Character.HumanoidRootPart)
+	
+					local part3 = F3X.new("Part", workspace)
+					part3.CanCollide = false
+					part3.Material = ("Smooth Plastic")
+					part3.BrickColor = BrickColor.new(22)
+					part3.Size = Vector3.new(1, 1, 3)
+					part3.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0, -0.5, -3.5)
+					wait()
+					part3:WeldTo(player.Character.HumanoidRootPart)
+					local part1 = F3X.new("Part", workspace)
+					part1.CanCollide = false
+					part.BrickColor = BrickColor.new(3)
+					part1.Material = ("Smooth Plastic")
+					part1.Size = Vector3.new(1, 1, 4)
+					part1.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(-0.8, -0.5, -1)
+					wait()
+	
+					part1:WeldTo(player.Character.HumanoidRootPart)
+	
+				end)
+	
+			end
+		end)
+
+Tab2Section:NewButton("tits all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+	
+					local part2 = F3X.new("Ball", workspace)
+					part2.CanCollide = false
+					part2.BrickColor = BrickColor.new(3)
+					part2.Material = ("Smooth Plastic")
+					part2.Size = Vector3.new(2, 2, 2)
+					part2.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0.8, 0.5, -1)
+					wait()
+					part2:WeldTo(player.Character.HumanoidRootPart)
+	
+	
+					local part1 = F3X.new("Ball", workspace)
+					part1.CanCollide = false
+					part.BrickColor = BrickColor.new(3)
+					part1.Material = ("Smooth Plastic")
+					part1.Size = Vector3.new(2, 2, 2)
+					part1.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(-0.8, 0.5, -1)
+					wait()
+	
+					part1:WeldTo(player.Character.HumanoidRootPart)
+					local part2 = F3X.new("Ball", workspace)
+					part2.CanCollide = false
+					part2.BrickColor = BrickColor.new(9)
+					part2.Material = ("Smooth Plastic")
+					part2.Size = Vector3.new(1, 1, 1)
+					part2.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0.8, 0.5, -1.8)
+					wait()
+					part2:WeldTo(player.Character.HumanoidRootPart)
+	
+	
+					local part1 = F3X.new("Ball", workspace)
+					part1.CanCollide = false
+					part.BrickColor = BrickColor.new(9)
+					part1.Material = ("Smooth Plastic")
+					part1.Size = Vector3.new(1, 1, 1)
+					part1.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(-0.8, 0.5, -1.8)
+					wait()
+	
+					part1:WeldTo(player.Character.HumanoidRootPart)
+	
+				end)
+	
+			end
+	
+	
+		end)
+		
+
+
+Tab2Section:NewButton("big dick all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+					local part = F3X.new("Part", workspace)
+					part.CanCollide = false
+					part.BrickColor = BrickColor.new(3)
+					part.Material = ("Smooth Plastic")
+					part.Size = Vector3.new(1.5, 1.5, 3)
+					part.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0, -0.5, -2)
+					wait()
+					part:WeldTo(player.Character.HumanoidRootPart)
+	
+					local part2 = F3X.new("Ball", workspace)
+					part2.CanCollide = false
+					part2.BrickColor = BrickColor.new(3)
+					part2.Material = ("Smooth Plastic")
+					part2.Size = Vector3.new(2.5, 2.5, 4)
+					part2.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0.8, -0.5, -1)
+					wait()
+					part2:WeldTo(player.Character.HumanoidRootPart)
+	
+					local part3 = F3X.new("Ball", workspace)
+					part3.CanCollide = false
+					part3.Material = ("Smooth Plastic")
+					part3.BrickColor = BrickColor.new(22)
+					part3.Size = Vector3.new(2, 2, 3)
+					part3.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0, -0.5, -3.5)
+					wait()
+					part3:WeldTo(player.Character.HumanoidRootPart)
+					local part1 = F3X.new("Ball", workspace)
+					part1.CanCollide = false
+					part.BrickColor = BrickColor.new(3)
+					part1.Material = ("Smooth Plastic")
+					part1.Size = Vector3.new(2.5, 2.5, 4)
+					part1.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(-0.8, -0.5, -1)
+					wait()
+	
+					part1:WeldTo(player.Character.HumanoidRootPart)
+	
+				end)
+	
+			end
+	
+	
+		end)
+
+Tab2Section:NewButton("butt all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+	
+					local part2 = F3X.new("Ball", workspace)
+					part2.CanCollide = false
+					part2.BrickColor = BrickColor.new(3)
+					part2.Material = ("Smooth Plastic")
+					part2.Size = Vector3.new(2, 2, 2)
+					part2.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0.8, -0.5, 0.8)
+					wait()
+					part2:WeldTo(player.Character.HumanoidRootPart)
+	
+	
+					local part1 = F3X.new("Ball", workspace)
+					part1.CanCollide = false
+					part.BrickColor = BrickColor.new(3)
+					part1.Material = ("Smooth Plastic")
+					part1.Size = Vector3.new(2, 2, 2)
+					part1.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(-0.8, -0.5, 0.8)
+					wait()
+	
+					part1:WeldTo(player.Character.HumanoidRootPart)
+	
+				end)
+	
+			end
+	
+	
+		end)
+
+
+Tab2Section:NewButton("Duck", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+	
+					local pchar = player.Character               
+					pchar.Head.Transparency = 1
+					pchar["Left Arm"].Transparency = 1
+					pchar["Right Arm"].Transparency = 1
+					pchar["Left Leg"].Transparency = 1
+					pchar["Right Leg"].Transparency = 1 
+					for i = 1,1 do
+						local part = F3X.new("Part", workspace)
+						part.Locked = true
+						part.CanCollide = false
+						part.Anchored = false
+						part.BrickColor = BrickColor.new(226)
+	
+						part.Size = Vector3.new(1, 1, 1)
+						part.CFrame = player.Character["Torso"].CFrame * CFrame.new(0,0, 0)    wait()
+						part:WeldTo(player.Character["Torso"])
+						local duck = part:AddMesh()
+						duck.MeshId = "http://www.roblox.com/asset/?id=9419831"
+						duck.TextureId = "http://www.roblox.com/asset/?id=9419827"
+	
+						duck.Scale = Vector3.new(5, 5, 5)
+						F3X.Object(player.Character["Torso"]).Transparency = 1
+						for i,v in next, game:GetService('Players').LocalPlayer.Character:GetChildren() do
+							if v:IsA('Accessory') then
+								v:Destroy()
+							end
+						end
+					end
+				end)
+			end
+end)
+
+Tab2Section:NewButton("troll face", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+					for _,limb in pairs(player.Character:GetChildren()) do
+						if limb:IsA("Accessory") and limb:FindFirstChildWhichIsA("BasePart") then
+							F3X.Object(limb:FindFirstChildWhichIsA("BasePart")):Destroy()
+						end
+					end
+					local part = F3X.new("Part", workspace)
+					part.Locked = true
+					part.CanCollide = false
+					part.Anchored = false
+					part.BrickColor = BrickColor.new(226)
+	
+	
+					part.CFrame = player.Character["Head"].CFrame * CFrame.new(0.2,0, -0.6)    wait()
+					part:WeldTo(player.Character["Head"])
+					F3X.Object(player.Character["Head"]).Transparency = 1
+					local lol = part:AddMesh()
+					lol.MeshId = "http://www.roblox.com/asset/?id=6900071612"
+					lol.TextureId = "http://www.roblox.com/asset/?id=6900071652"
+					lol.Scale = Vector3.new(1.7, 1.7, 1.7)
+				end)
+			end
+end)
+
+Tab2Section:NewButton("among us", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {Transparency = 1})
+					for _,limb in pairs(player.Character:GetChildren()) do
+						if limb:IsA("Accessory") and limb:FindFirstChildWhichIsA("BasePart") then
+							F3X.Object(limb:FindFirstChildWhichIsA("BasePart")):Destroy()
+						end
+					end
+					local part = F3X.new("Part", workspace)
+					part.CanCollide = false
+					part.Size = Vector3.new(3, 4, 3)
+					part.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0, -0.5, 0)
+					wait()
+					part:WeldTo(player.Character.HumanoidRootPart)
+					local mesh = part:AddMesh()
+					mesh.MeshId = "rbxassetid://6235963214"
+					mesh.TextureId = "rbxassetid://6235963270"
+					mesh.Scale = Vector3.new(.1, .1, .1)
+				end)
+			end
+end)
+
+Tab2Section:NewButton("sonic", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+					local part = F3X.new("Part", workspace)
+					part.Locked = true
+					part.CanCollide = false
+					part.Anchored = false
+					part.BrickColor = BrickColor.new(226)
+	
+	
+					part.CFrame = player.Character["Head"].CFrame * CFrame.new(0,0, 0)    wait()
+					part:WeldTo(player.Character["Head"])
+					F3X.Object(player.Character["Head"]).Transparency = 1
+					local lol = part:AddMesh()
+					lol.MeshId = "http://www.roblox.com/asset/?id=430064078"
+					lol.TextureId = "http://www.roblox.com/asset/?id=430064079"
+					lol.Scale = Vector3.new(0.8, 0.8, 0.8)
+				end)
+			end
+end)
+
+Tab2Section:NewButton("eggdog", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+	
+					local pchar = player.Character               
+					pchar.Head.Transparency = 1
+					pchar["Left Arm"].Transparency = 1
+					pchar["Right Arm"].Transparency = 1
+					pchar["Left Leg"].Transparency = 1
+					pchar["Right Leg"].Transparency = 1 
+					for i = 1,1 do
+						local part = F3X.new("Part", workspace)
+						part.Locked = true
+						part.CanCollide = false
+						part.Anchored = false
+						part.BrickColor = BrickColor.new(226)
+	
+						part.Size = Vector3.new(1, 1, 1)
+						part.CFrame = player.Character["Torso"].CFrame * CFrame.new(0,0, 0)    wait()
+						part:WeldTo(player.Character["Torso"])
+						local duck = part:AddMesh()
+						duck.MeshId = "http://www.roblox.com/asset/?id=3142513417"
+						duck.TextureId = "http://www.roblox.com/asset/?id=3142513433"
+	
+	
+						duck.Scale = Vector3.new(.1, .1, .1)
+						F3X.Object(player.Character["Torso"]).Transparency = 1
+						for i,v in next, game:GetService('Players').LocalPlayer.Character:GetChildren() do
+							if v:IsA('Accessory') then
+								v:Destroy()
+							end
+						end
+					end
+				end)
+			end
+end)
+
+Tab2Section:NewButton("knuckles", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+					for _,limb in pairs(player.Character:GetChildren()) do
+						if limb:IsA("Accessory") and limb:FindFirstChildWhichIsA("BasePart") then
+							F3X.Object(limb:FindFirstChildWhichIsA("BasePart")):Destroy()
+						end
+					end
+	
+	
+					local pchar = player.Character               
+					pchar.Head.Transparency = 1
+					pchar["Left Arm"].Transparency = 1
+					pchar["Right Arm"].Transparency = 1
+					pchar["Left Leg"].Transparency = 1
+					pchar["Right Leg"].Transparency = 1 
+	
+					local part = F3X.new("Part", workspace)
+					part.Locked = true
+					part.CanCollide = false
+					part.Anchored = false
+					part.BrickColor = BrickColor.new(226)
+	
+					part.Size = Vector3.new(1, 1, 1)
+					part.CFrame = player.Character["Torso"].CFrame * CFrame.new(0,0, 0)    wait()
+					part:WeldTo(player.Character["Torso"])
+					local duck = part:AddMesh()
+					duck.MeshId = "http://www.roblox.com/asset/?id=5330551132"
+					duck.TextureId = "http://www.roblox.com/asset/?id=5330551192"
+	
+					duck.Scale = Vector3.new(5, 5, 5)
+					F3X.Object(player.Character["Torso"]).Transparency = 1
+	
+	
+				end)
+			end
+end)
+
+Tab2Section:NewButton("Domino troll", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+					local part = F3X.new("Part", workspace)
+					part.Locked = true
+					part.CanCollide = false
+					part.Anchored = false
+					part.BrickColor = BrickColor.new(226)
+	
+					part.Size = Vector3.new(1, 1, 1)
+					part.CFrame = player.Character["Head"].CFrame * CFrame.new(0,0, 0)    wait()
+					part:WeldTo(player.Character["Head"])
+					F3X.Object(player.Character["Head"]).Transparency = 1
+					local lol = part:AddMesh()
+					lol.MeshId = "http://www.roblox.com/asset/?id=4918900585"
+					lol.TextureId = "http://www.roblox.com/asset/?id=4918900636"
+					lol.Scale = Vector3.new(1, 1, 1)
+				end)
+			end
+	
+end)
+
+
+Tab2Section:NewButton("potato", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+					local part = F3X.new("Part", workspace)
+					part.Locked = true
+					part.CanCollide = false
+					part.Anchored = false
+					part.BrickColor = BrickColor.new(226)
+	
+	
+					part.CFrame = player.Character["Head"].CFrame * CFrame.new(0,0, 0)    wait()
+					part:WeldTo(player.Character["Head"])
+					F3X.Object(player.Character["Head"]).Transparency = 1
+					local lol = part:AddMesh()
+					lol.MeshId = "http://www.roblox.com/asset/?id=4946447704"
+					lol.TextureId = "http://www.roblox.com/asset/?id=4946447928"
+					lol.Scale = Vector3.new(4, 4, 4)
+				end)
+			end
+end)
+
+
+
+Tab2Section:NewButton("spiderman all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+					for _,limb in pairs(player.Character:GetChildren()) do
+						if limb:IsA("Accessory") and limb:FindFirstChildWhichIsA("BasePart") then
+							F3X.Object(limb:FindFirstChildWhichIsA("BasePart")):Destroy()
+						end
+					end
+	
+	
+					local pchar = player.Character               
+					pchar.Head.Transparency = 1
+					pchar["Left Arm"].Transparency = 1
+					pchar["Right Arm"].Transparency = 1
+					pchar["Left Leg"].Transparency = 1
+					pchar["Right Leg"].Transparency = 1 
+	
+					local part = F3X.new("Part", workspace)
+					part.Locked = true
+					part.CanCollide = false
+					part.Anchored = false
+					part.BrickColor = BrickColor.new(226)
+	
+					part.Size = Vector3.new(1, 1, 1)
+					part.CFrame = player.Character["Torso"].CFrame * CFrame.new(0,0, 0)    wait()
+					part:WeldTo(player.Character["Torso"])
+					local duck = part:AddMesh()
+					duck.MeshId = "http://www.roblox.com/asset/?id=6834091733"
+					duck.TextureId = "http://www.roblox.com/asset/?id=6834092689"
+	
+					duck.Scale = Vector3.new(1, 1, 1)
+					F3X.Object(player.Character["Torso"]).Transparency = 1
+	
+	
+				end)
+			end
+end)
+
+   setclipboard("f3x gui messsge : This gui was maked by teamperu and g00glekidd")
+
+Tab2Section:NewButton("Funky all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+	
+					local pchar = player.Character               
+					pchar.Head.Transparency = 1
+					pchar["Left Arm"].Transparency = 1
+					pchar["Right Arm"].Transparency = 1
+					pchar["Left Leg"].Transparency = 1
+					pchar["Right Leg"].Transparency = 1 
+					for i = 1,1 do
+						local part = F3X.new("Part", workspace)
+						part.Locked = true
+						part.CanCollide = false
+						part.Anchored = false
+						part.BrickColor = BrickColor.new(226)
+	
+						part.Size = Vector3.new(1, 1, 1)
+						part.CFrame = player.Character["Torso"].CFrame * CFrame.new(0,0, 0)    wait()
+						part:WeldTo(player.Character["Torso"])
+						local duck = part:AddMesh()
+						duck.MeshId = "http://www.roblox.com/asset/?id=6533498609"
+						duck.TextureId = "http://www.roblox.com/asset/?id=6533498648"
+	
+						duck.Scale = Vector3.new(.01, .01, .01)
+						F3X.Object(player.Character["Torso"]).Transparency = 1
+						for i,v in next, game:GetService('Players').LocalPlayer.Character:GetChildren() do
+							if v:IsA('Accessory') then
+								v:Destroy()
+							end
+						end
+					end
+				end)
+			end
+end)
+
+
+
+Tab2Section:NewButton("noob", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game:GetService("Players"):GetChildren()) do
+				spawn(function()
+					F3X.Edit(game:GetService("Players"):GetChildren(), {Transparency = 0})
+	
+					local pchar = player.Character               
+					pchar.Head.Transparency = 1
+					pchar["Left Arm"].Transparency = 1
+					pchar["Right Arm"].Transparency = 1
+					pchar["Left Leg"].Transparency = 1
+					pchar["Right Leg"].Transparency = 1 
+					for i = 1,1 do
+						local part = F3X.new("Part", workspace)
+						part.Locked = true
+						part.CanCollide = false
+						part.Anchored = false
+						part.BrickColor = BrickColor.new(226)
+	
+						part.Size = Vector3.new(1, 1, 1)
+						part.CFrame = player.Character["Torso"].CFrame * CFrame.new(0,0, 0)    wait()
+						part:WeldTo(player.Character["Torso"])
+						local duck = part:AddMesh()
+						duck.MeshId = "http://www.roblox.com/asset/?id=2711200539"
+						duck.TextureId = "http://www.roblox.com/asset/?id=2711200587"
+	
+						duck.Scale = Vector3.new(1, 1, 1)
+						F3X.Object(player.Character["Torso"]).Transparency = 1
+						for i,v in next, game:GetService('Players').LocalPlayer.Character:GetChildren() do
+							if v:IsA('Accessory') then
+								v:Destroy()
+							end
+						end
+					end
+				end)
+			end
+end)
+
+Tab2Section:NewButton("Rainbow all", "a", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+					while wait(0.7) do
+						F3X.Object(player.Character["Head"]).BrickColor = BrickColor.new(154)
+						F3X.Object(player.Character["Torso"]).BrickColor = BrickColor.new(154)
+						F3X.Object(player.Character["Left Leg"]).BrickColor = BrickColor.new(154)
+						F3X.Object(player.Character["Right Leg"]).BrickColor = BrickColor.new(154)
+						F3X.Object(player.Character["Left Arm"]).BrickColor = BrickColor.new(154)
+						F3X.Object(player.Character["Right Arm"]).BrickColor = BrickColor.new(154)
+					end
+				end)
+			end
+	
+	
+end)
+local Tab2Section = Tab2:NewSection("Extras [fun]")
+Tab2Section:NewButton("fairy all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+					for _,limb in pairs(player.Character:GetChildren()) do
+						if limb:IsA("Accessory") and limb:FindFirstChildWhichIsA("BasePart") then
+							F3X.Object(limb:FindFirstChildWhichIsA("BasePart")):Destroy()
+						end
+					end
+					F3X.Object(player.Character["Head"]).BrickColor = BrickColor.new(221)
+					F3X.Object(player.Character["Torso"]).BrickColor = BrickColor.new(221)
+					F3X.Object(player.Character["Left Leg"]).BrickColor = BrickColor.new(221)
+					F3X.Object(player.Character["Right Leg"]).BrickColor = BrickColor.new(221)
+					F3X.Object(player.Character["Left Arm"]).BrickColor = BrickColor.new(221)
+					F3X.Object(player.Character["Right Arm"]).BrickColor = BrickColor.new(221)
+	
+					local pchar = player.Character -- This bypasses all Anti exploits so do not worry .
+					pchar.Shirt:Remove()
+	
+	
+					pchar.Pants:Remove()
+	
+	
+					pchar["Shirt Graphic"].Graphic = ""
+	
+					for i,fee in pairs(player.Character:GetChildren()) do
+						if fee:IsA("BasePart") then
+							F3X.Object(fee):AddSparkles().Size = 0.8
+							F3X.Object(fee):AddSparkles().Size = 0.8
+							F3X.Object(fee):AddSparkles().Size = 0.8
+							F3X.Object(fee):AddSparkles().Size = 0.8
+						end
+					end
+	
+	
+				end)
+			end
+	
+	
+end)
+
+
+Tab2Section:NewButton("Naked All", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+					for i,fee in pairs(player.Character:GetChildren()) do
+						if fee:IsA("BasePart") then
+							F3X.Object(fee).BrickColor = BrickColor.new(225)
+						end
+	
+						local pchar = player.Character -- This bypasses all Anti exploits so do not worry .
+						pchar.Shirt:Remove()
+	
+	
+						pchar.Pants:Remove()
+	
+	
+						pchar["Shirt Graphic"].Graphic = ""
+	
+					end
+				end)
+			end
+	
+	
+end)
+Tab2Section:NewButton("tron all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+					for _,limb in pairs(player.Character:GetChildren()) do
+						if limb:IsA("Accessory") and limb:FindFirstChildWhichIsA("BasePart") then
+							F3X.Object(limb:FindFirstChildWhichIsA("BasePart")):Destroy()
+						end
+					end
+					for i,fee in pairs(player.Character:GetChildren()) do
+						if fee:IsA("BasePart") then
+							local lol = F3X.Object(fee):AddMesh()
+							lol.MeshId = "http://www.roblox.com/asset/?id=6099332968"
+							lol.TextureId = "http://www.roblox.com/asset/?id=6099332968"
+							lol.Scale = Vector3.new(0.1,0.34,0.1)
+							F3X.Object(player.Character["Head"]).Transparency = 1
+						end
+					end
+					local pchar = player.Character -- This bypasses all Anti exploits so do not worry .
+					pchar.Head.Face:Remove()
+	
+	
+	
+	
+				end)
+			end
+end)
+Tab2Section:NewButton("Remove animation all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+	
+					F3X.Object(player.Character.HumanoidRootPart):Destroy()
+					F3X.Object(player.Character.Humanoid).Sit = true
+				end)
+			end
+	
+	
+end)
+
+Tab2Section:NewButton("fart all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+	
+					local yes = F3X.Object(player.Character.Torso):AddSmoke()
+					yes.Size = 0.43
+					yes.Color = Color3.new(0,3,0)
+	
+	
+				end)
+			end
+	
+	
+		end)
+Tab2Section:NewButton("Remove anims all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+	
+					F3X.Object(player.Character.HumanoidRootPart):Destroy()
+					F3X.Object(player.Character.Humanoid).Sit = true
+				end)
+			end
+	
+	
+end)
+Tab2Section:NewButton("crusify all", "ok?", function()
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+			for _,player in pairs(game.Players:GetPlayers()) do
+				spawn(function()
+					F3X.Edit(player.Character:GetChildren(), {})
+	
+					local part = F3X.new("Part", workspace)
+					part.CanCollide = false
+					part.BrickColor = BrickColor.new(217)
+					part.Material = ("Wood")
+					part:AddFire().Size = 8
+					part.Size = Vector3.new(0.8, 10, 1)
+					part.CFrame = player.Character.HumanoidRootPart.CFrame * CFrame.new(0, -0.5, 1)
+					wait()
+					part:WeldTo(player.Character.HumanoidRootPart)
+					local part = F3X.new("Part", workspace)
+					part.CanCollide = false
+					part.BrickColor = BrickColor.new(217)
+					part.Material = ("Wood")
+					part.Size = Vector3.new(0.8, 1, 5)
+					part:AddFire().Size = 8
+					part.CFrame = player.Character.HumanoidRootPart.CFrame *CFrame.Angles(0,4.76,0) * CFrame.new(1, 2, 0)
+					wait()
+					part:WeldTo(player.Character.HumanoidRootPart)
+					F3X.Object(player.Character.HumanoidRootPart).Anchored = true
+	
+				end)
+			end
+	
+end)
+
+
+---TAB 3
+
+Tab3Section:NewButton("C00lgui", "ok?", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rusello25/scripts/main/c00lgui%20reimagined'),true))()
+end)
+
+Tab3Section:NewButton("k00pgui [PASSWORD : k00pkidd⁰", "ok?", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rusello25/scripts/main/k00pgui'),true))()
+end)
+
+Tab3Section:NewButton("ro- xploit", "ok?", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/rusello25/scripts/main/Ro-Xploit'),true))()
+end)
+
+Tab3Section:NewButton("F3xinian ui", "ok?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rusello25/scripts/main/HG"))()
+end)
+
+Tab3Section:NewButton("rk1", "ok?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rusello25/scripts/main/RK1"))()
+end)
+
+
+Tab3Section:NewButton("f3x by noremius script", "ok?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/f3xhub/main/f3xhub"))() 
+end)
+
+
+Tab4Section:NewButton("m4a1", "ok?", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rusello25/scripts/main/m4a1"))()
+end)
+
+Tab4Section:NewButton("Slap Tool", "ok?", function()
+local ____animmmm = Instance.new("Animation")
+		____animmmm.AnimationId = "rbxassetid://243827693"
+		local slapAnim = char:FindFirstChildOfClass("Humanoid"):LoadAnimation(____animmmm)
+		local tool = Instance.new("Tool",player.Backpack)
+		tool.Name = "Slap To 'DEATH'."
+		local swingNoise = Instance.new("Sound",char)
+		swingNoise.Name = "Swing_SLAP"
+		swingNoise.Volume = 0.7
+		swingNoise.Pitch = 1.7
+		swingNoise.SoundId = "rbxassetid://5835032207"
+		local uhhNoise = Instance.new("Sound",char)
+		uhhNoise.Name = "UH_SLAP"
+		uhhNoise.Volume = 6.5
+		uhhNoise.SoundId = "rbxassetid://12222140"
+		local slapeyNoise = Instance.new("Sound",char)
+		slapeyNoise.Name = "Slapey_SLAP"
+		slapeyNoise.Volume = 5
+		slapeyNoise.SoundId = "rbxassetid://511340819"
+		local bloodNoise = Instance.new("Sound",char)
+		bloodNoise.Name = "BloBloGore_SLAP"
+		bloodNoise .Volume = 8.5
+		bloodNoise.SoundId = "rbxassetid://264486467"
+		local handle = Instance.new("Part",tool)
+		handle.Name = "Handle"
+		handle.Size = Vector3.new(2, 2, 2)
+		handle.Massless = true
+		handle.Transparency = 1
+		tool.Activated:Connect(function()
+			swingNoise:Play()
+			slapAnim:AdjustSpeed(3.5)
+			slapAnim:Play()
+			slapAnim:AdjustSpeed(3.5)
+			local connection;
+			connection = handle.Touched:Connect(function(part)
+				if part.Parent:FindFirstChild("Humanoid") ~= nil then
+					uhhNoise:Play()
+					slapeyNoise:Play()
+					DestroyPart(part.Parent:FindFirstChild("HumanoidRootPart"))
+					spawn(function()
+						wait(2.5)DestroyPart(part.Parent:FindFirstChild("Head"))bloodNoise:play()
+					end)
+					if connection then connection:Disconnect() end
+				end
+			end) :: RBXScriptSignal
+			wait(0.2)
+			connection:Disconnect()
+		end)
+end)
+
+Tab4Section:NewButton("pro sign", "ok?", function()
+			player = game.Players.LocalPlayer
+	
+			Tool0 = Instance.new("Tool")
+			Part1 = Instance.new("Part")
+	
+			Tool0.Parent = player.Backpack
+			Tool0.Grip = CFrame.new(0, -1.00000083, 0, 1, 5.77420778e-08, -3.2037471e-07, -5.77420316e-08, 1, 1.37835528e-07, 3.2037471e-07, -1.37835514e-07, 1)
+			Tool0.GripForward = Vector3.new(3.2037470987233974e-07, -1.378355278802701e-07, -1)
+			Tool0.GripPos = Vector3.new(0, -1.0000008344650269, 0)
+			Tool0.GripRight = Vector3.new(1, -5.774203160058278e-08, 3.2037470987233974e-07)
+			Tool0.GripUp = Vector3.new(5.77420777858606e-08, 1, -1.3783551366941538e-07)
+			Part1.Name = "Handle"
+			Part1.Parent = Tool0
+			Part1.CFrame = CFrame.new(2.75, 1.87499976, -16.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			Part1.Position = Vector3.new(2.75, 1.874999761581421, -16.25)
+			Part1.Size = Vector3.new(0,0,0)
+			Part1.BottomSurface = Enum.SurfaceType.Smooth
+			Part1.TopSurface = Enum.SurfaceType.Smooth
+	
+	
+	
+	
+	
+	
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+	
+	
+	
+			local part = F3X.new("Part", workspace)
+	
+			part.Locked = true
+			part.Size = Vector3.new(-48583883487437474, -48583883487437474, -4858388348743745545454535535345353453574)
+			part.CFrame = game.Players.LocalPlayer.Character["Right Arm"].CFrame * CFrame.Angles(6.27,0,0)*  CFrame.new(0,-1, -1.85)  wait()
+			part:WeldTo(game.Players.LocalPlayer.Character["Right Arm"])
+			local duck = part:AddMesh()
+			duck.MeshId = "http://www.roblox.com/asset/?id=15631335"
+			duck.TextureId = "http://www.roblox.com/asset/?id=21433483"
+	
+			duck.Scale = Vector3.new(1, 1, 1)
+	
+			game.Players.LocalPlayer.Backpack.Tool.Parent = game.Players.LocalPlayer.Character
+	
+		end)
+
+   setclipboard("This gui was maked by teamperu and g00glekidd")
+
+Tab4Section:NewButton("Big ban Hammer", "ok?", function()
+			player = game.Players.LocalPlayer
+	
+			Tool0 = Instance.new("Tool")
+			Part1 = Instance.new("Part")
+	
+			Tool0.Parent = player.Backpack
+			Tool0.Grip = CFrame.new(0, -1.00000083, 0, 1, 5.77420778e-08, -3.2037471e-07, -5.77420316e-08, 1, 1.37835528e-07, 3.2037471e-07, -1.37835514e-07, 1)
+			Tool0.GripForward = Vector3.new(3.2037470987233974e-07, -1.378355278802701e-07, -1)
+			Tool0.GripPos = Vector3.new(0, -1.0000008344650269, 0)
+			Tool0.GripRight = Vector3.new(1, -5.774203160058278e-08, 3.2037470987233974e-07)
+			Tool0.GripUp = Vector3.new(5.77420777858606e-08, 1, -1.3783551366941538e-07)
+			Part1.Name = "Handle"
+			Part1.Parent = Tool0
+			Part1.CFrame = CFrame.new(2.75, 1.87499976, -16.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			Part1.Position = Vector3.new(2.75, 1.874999761581421, -16.25)
+			Part1.Size = Vector3.new(0,0,0)
+			Part1.BottomSurface = Enum.SurfaceType.Smooth
+			Part1.TopSurface = Enum.SurfaceType.Smooth
+	
+	
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+	
+	
+	
+			local part = F3X.new("Part", workspace)
+	
+			part.Locked = true
+			part.Size = Vector3.new(-48583883487437474, -48583883487437474, -48583883487437455454)
+			part.CFrame = game.Players.LocalPlayer.Character["Right Arm"].CFrame * CFrame.Angles(-7.85,9.45,0)*  CFrame.new(0.15,1.7,0.8)  wait()     
+			part:WeldTo(game.Players.LocalPlayer.Character["Right Arm"])
+			local duck = part:AddMesh()
+			duck.MeshId = "http://www.roblox.com/asset/?id=10604848"
+			duck.TextureId = "http://www.roblox.com/asset/?id=10605252"
+	
+	
+			duck.Scale = Vector3.new(1, 1, 1)
+	
+			game.Players.LocalPlayer.Backpack.Tool.Parent = game.Players.LocalPlayer.Character
+	
+		end)
+Tab4Section:NewButton("Ultra ban Hammer", "ok?", function()
+			player = game.Players.LocalPlayer
+	
+			Tool0 = Instance.new("Tool")
+			Part1 = Instance.new("Part")
+	
+			Tool0.Parent = player.Backpack
+			Tool0.Grip = CFrame.new(0, -1.00000083, 0, 1, 5.77420778e-08, -3.2037471e-07, -5.77420316e-08, 1, 1.37835528e-07, 3.2037471e-07, -1.37835514e-07, 1)
+			Tool0.GripForward = Vector3.new(3.2037470987233974e-07, -1.378355278802701e-07, -1)
+			Tool0.GripPos = Vector3.new(0, -1.0000008344650269, 0)
+			Tool0.GripRight = Vector3.new(1, -5.774203160058278e-08, 3.2037470987233974e-07)
+			Tool0.GripUp = Vector3.new(5.77420777858606e-08, 1, -1.3783551366941538e-07)
+			Part1.Name = "Handle"
+			Part1.Parent = Tool0
+			Part1.CFrame = CFrame.new(2.75, 1.87499976, -16.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			Part1.Position = Vector3.new(2.75, 1.874999761581421, -16.25)
+			Part1.Size = Vector3.new(0,0,0)
+			Part1.BottomSurface = Enum.SurfaceType.Smooth
+			Part1.TopSurface = Enum.SurfaceType.Smooth
+	
+	
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+	
+	
+	
+			local part = F3X.new("Part", workspace)
+	
+			part.Locked = true
+			part.Size = Vector3.new(-48583883487437474, -48583883487437474, -48583883487437455454)
+			part.CFrame = game.Players.LocalPlayer.Character["Right Arm"].CFrame * CFrame.Angles(-7.85,9.45,0)*  CFrame.new(0.15,9,0.8)  wait()     
+			part:WeldTo(game.Players.LocalPlayer.Character["Right Arm"])
+			local duck = part:AddMesh()
+			duck.MeshId = "http://www.roblox.com/asset/?id=10604848"
+			duck.TextureId = "http://www.roblox.com/asset/?id=10605252"
+	
+	
+			duck.Scale = Vector3.new(3, 3, 3)
+	
+			game.Players.LocalPlayer.Backpack.Tool.Parent = game.Players.LocalPlayer.Character
+	
+		end)
+Tab4Section:NewButton("Rainbow periastron omega", "ok?", function()
+			player = game.Players.LocalPlayer
+	
+			Tool0 = Instance.new("Tool")
+			Part1 = Instance.new("Part")
+	
+			Tool0.Parent = player.Backpack
+			Tool0.Grip = CFrame.new(0, -1.00000083, 0, 1, 5.77420778e-08, -3.2037471e-07, -5.77420316e-08, 1, 1.37835528e-07, 3.2037471e-07, -1.37835514e-07, 1)
+			Tool0.GripForward = Vector3.new(3.2037470987233974e-07, -1.378355278802701e-07, -1)
+			Tool0.GripPos = Vector3.new(0, -1.0000008344650269, 0)
+			Tool0.GripRight = Vector3.new(1, -5.774203160058278e-08, 3.2037470987233974e-07)
+			Tool0.GripUp = Vector3.new(5.77420777858606e-08, 1, -1.3783551366941538e-07)
+			Part1.Name = "Handle"
+			Part1.Parent = Tool0
+			Part1.CFrame = CFrame.new(2.75, 1.87499976, -16.25, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+			Part1.Position = Vector3.new(2.75, 1.874999761581421, -16.25)
+			Part1.Size = Vector3.new(0,0,0)
+			Part1.BottomSurface = Enum.SurfaceType.Smooth
+			Part1.TopSurface = Enum.SurfaceType.Smooth
+	
+	
+			local F3X = loadstring(game:HttpGet("https://pastebin.com/raw/TQgu7X5u"))()
+	
+	
+	
+	
+			local part = F3X.new("Part", workspace)
+	
+			part.Locked = true
+			part.Size = Vector3.new(-48583883487437474, -48583883487437474, -48583883487437455454)
+			part.CFrame = game.Players.LocalPlayer.Character["Right Arm"].CFrame * CFrame.Angles(-6.25,9.45,4.55)*  CFrame.new(0.85,0.2, 2.5)  wait()     
+			part:WeldTo(game.Players.LocalPlayer.Character["Right Arm"])
+			local duck = part:AddMesh()
+			duck.MeshId = "http://www.roblox.com/asset/?id=80557857"
+			duck.TextureId = "http://www.roblox.com/asset/?id=157345185"
+			part:AddSparkles()
+	
+			duck.Scale = Vector3.new(1, 1, 1)
+	
+			game.Players.LocalPlayer.Backpack.Tool.Parent = game.Players.LocalPlayer.Character
+	
+		end)
+
+
+
+
+   setclipboard("f3x gui messsge : This gui was maked by teamperu and g00glekidd")
